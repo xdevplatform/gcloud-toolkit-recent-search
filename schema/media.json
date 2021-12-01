@@ -1,0 +1,79 @@
+[
+    {
+        "name": "media_key",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "duration_ms",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "height",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "preview_image_url",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "width",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "alt_text",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "public_metrics",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "quote_count",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            }, 
+            {
+                "name": "reply_count",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            }, 
+            {
+                "name": "like_count",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            }, 
+            {
+                "name": "retweet_count",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "view_count",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            }
+        ]
+    },
+    {
+        "name": "category",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "subcategory",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
