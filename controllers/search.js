@@ -27,8 +27,14 @@ router.post("/", function (req, res) {
   bq_dataset.provisionDB(req.body.dataSet).then(function (status) {
     console.log('DB provisioning status ', status);
     if (status != null && status.includes('Successfully provisioned')) {
-      recentSearch(req.body);
-      res.send("Twitter V2 API Recent Search Application");
+      recentSearch(req.body).then( function(twttrStatus) {
+        if (twttrStatus != null) {
+          res.send(twttrStatus);
+        }
+      })
+      .catch(function(error)  {
+        res.send(error);
+      })
     } 
   })
   .catch(function(error)  {
@@ -66,7 +72,8 @@ async function recentSearch(reqBody, nextToken) {
         resolve('Recent Search results are persisted in database');
       })
       .catch(function (error) {
-        reject(error);
+        console.log('ERROR ',error.response.data);
+        reject(error.response.data);
       });
   });
 }
