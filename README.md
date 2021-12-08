@@ -5,6 +5,7 @@
 - Process, analyze and visualize massive amounts of Tweets (up to 10M Tweets and the design is scalable to biliions of Tweets)
 - Automates the data pipeline process to ingest Tweets into Google Cloud
 - Decrease the time to value to find insights from Tweets
+- Visualization of Tweets, slicing and dicing with Tweet attributes
 
 
 ## I don’t have a lot of time: 15 mins is all you need
