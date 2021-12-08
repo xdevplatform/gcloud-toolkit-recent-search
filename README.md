@@ -1,5 +1,12 @@
 # Developer Guide: Twitter API toolkit for Google Cloud
 
+## Why Twitter API toolkit for Google Cloud?
+
+- Process, analyze and visualize massive amounts of Tweets (up to 10M Tweets and the design is scalable to biliions of Tweets)
+- Automates the data pipeline process to ingest Tweets into Google Cloud
+- Decrease the time to value to find insights from Tweets
+
+
 ## I don’t have a lot of time: 15 mins is all you need
 
 If you can spare 15 mins, please proceed. You will learn the basics about Twitter API and possibly find ways to monetize Twitter data. As a side benefit, you will also learn about Google Cloud, Analytics, and the foundations of data science
