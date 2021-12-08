@@ -7,10 +7,10 @@ If you can spare 15 mins, please proceed. You will learn the basics about Twitte
 ## Prerequisites: As a developer what do I need to execute this toolkit?
 
 * Twitter Developer account [Sign up here](https://developer.twitter.com/en/apply-for-access)
-* How to get a Twitter API bearer token [Watch this](https://www.youtube.com/watch?v=E_h1HNjsd-U)
+* How to get a Twitter API bearer token? [Watch this](https://www.youtube.com/watch?v=E_h1HNjsd-U)
 * A Google Cloud Account [Sign up here](https://www.google.com/aclk?sa=l&ai=DChcSEwjq8LzG8c_0AhUXE9QBHUQBC9QYABADGgJvYQ&sig=AOD64_2epUp76ekL53Vngr8B5cAjNAIaCQ&nis=1&ved=2ahUKEwjAubPG8c_0AhX5mGoFHdnPBMcQqyQoAHoECAMQBw&adurl=)
 
-## How should I execute this toolkit?
+## How should I execute this toolkit? [Video tutorial](https://drive.google.com/file/d/1rLpN_vLXe9csrRSKjIV_LtcKcNuYfPtG/view?usp=sharing)
 
 Ensure you have the Google Cloud account, Twitter developer account, and Twitter API bearer token
 
