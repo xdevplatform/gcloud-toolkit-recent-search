@@ -1,8 +1,20 @@
-# How should I execute this toolkit?
+# Developer Guide: Twitter API toolkit for Google Cloud
+
+## I don’t have a lot of time: 15 mins is all you need
+
+If you can spare 15 mins, please proceed. You will learn the basics about Twitter API and possibly find ways to monetize Twitter data. As a side benefit, you will also learn about Google Cloud, Analytics, and the foundations of data science
+
+## Prerequisites: As a developer what do I need to execute this toolkit?
+
+* Twitter Developer account [Sign up here](https://developer.twitter.com/en/apply-for-access)
+* How to get a Twitter API bearer token [Watch this](https://www.youtube.com/watch?v=E_h1HNjsd-U)
+* A Google Cloud Account [Sign up here](https://www.google.com/aclk?sa=l&ai=DChcSEwjq8LzG8c_0AhUXE9QBHUQBC9QYABADGgJvYQ&sig=AOD64_2epUp76ekL53Vngr8B5cAjNAIaCQ&nis=1&ved=2ahUKEwjAubPG8c_0AhX5mGoFHdnPBMcQqyQoAHoECAMQBw&adurl=)
+
+## How should I execute this toolkit?
 
 Ensure you have the Google Cloud account, Twitter developer account, and Twitter API bearer token
 
-## Step One: Install the Tweet loader application
+### Step One: Install the Tweet loader application
 
 1. Access Google Cloud console and launch the “Cloud Shell”. Ensure you are on the right Google Cloud Project
 2. At the command prompt, download the code for the toolkit by executing the command: 
@@ -33,7 +45,7 @@ Ensure you have the Google Cloud account, Twitter developer account, and Twitter
     Enable BigQuery API
     `gcloud services enable bigquery.googleapis.com`
 
-## Step Two: Load the Tweets with the CURL command
+### Step Two: Load the Tweets with the CURL command
 
 1. Get the URL endpoint of the deployed Tweet loader application
 
