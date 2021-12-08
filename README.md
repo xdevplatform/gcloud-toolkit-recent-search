@@ -80,3 +80,7 @@ curl -d '{
     }
 }' -H 'Content-Type: application/json' https://<<Tweet loader URL>>.appspot.com/search
 ```
+
+### Step Three: Visualize the Tweets in Google DataStudio
+
+[Follow this video tutorial](https://drive.google.com/file/d/1FLVBzGESgPvcE00uY9CGFRxuw5o4XAgN/view?usp=sharing)
