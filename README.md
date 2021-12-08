@@ -10,6 +10,15 @@ If you can spare 15 mins, please proceed. You will learn the basics about Twitte
 * How to get a Twitter API bearer token? [Watch this](https://www.youtube.com/watch?v=E_h1HNjsd-U)
 * A Google Cloud Account [Sign up here](https://www.google.com/aclk?sa=l&ai=DChcSEwjq8LzG8c_0AhUXE9QBHUQBC9QYABADGgJvYQ&sig=AOD64_2epUp76ekL53Vngr8B5cAjNAIaCQ&nis=1&ved=2ahUKEwjAubPG8c_0AhX5mGoFHdnPBMcQqyQoAHoECAMQBw&adurl=)
 
+## What Cloud Services this toolkit will leverage and what are the costs?
+
+- This toolkit requires a Twitter API account that is free to signup for an essential access?
+- This toolkit leverages Google BigQuery, App Engine and DataStudio and for processing up to 500K Tweets it will be withing the credit limit. However, we recommend to disable the App Engine when not in use
+
+## Give me the big picture
+
+![A Developer's interaction with the toolkit](https://github.com/twitterdev/gcloud-toolkit-recent-search/blob/main/resources/architecture.jpg)
+
 ## How should I execute this toolkit? [Video tutorial](https://drive.google.com/file/d/1rLpN_vLXe9csrRSKjIV_LtcKcNuYfPtG/view?usp=sharing)
 
 Ensure you have the Google Cloud account, Twitter developer account, and Twitter API bearer token
