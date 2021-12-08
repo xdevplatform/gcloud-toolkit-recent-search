@@ -27,7 +27,7 @@ Ensure you have the Google Cloud account, Twitter developer account, and Twitter
 
 	`vi config.js` 
     
-	```Edit line #3 in config.js by inserting the Twitter API bearer token (ensure the word ‘Bearer’ must be appended before the token with a space```
+	```Edit line #3 in config.js by inserting the Twitter API bearer token (ensure the word ‘Bearer’ must be prepended before the token with a space```
     
 	```Edit line#4 in config.js by inserting the Google Cloud project id```
     
