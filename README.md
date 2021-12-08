@@ -12,7 +12,7 @@ If you can spare 15 mins, please proceed. You will learn the basics about Twitte
 
 ## What Cloud Services this toolkit will leverage and what are the costs?
 
-- This toolkit requires a Twitter API account that is free to signup for an essential access?
+- This toolkit requires a Twitter API account that is free to signup for an essential access
 - This toolkit leverages Google BigQuery, App Engine and DataStudio and for processing up to 500K Tweets it will be withing the credit limit. However, we recommend to disable the App Engine when not in use
 
 ## Give me the big picture
