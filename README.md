@@ -2,10 +2,10 @@
 
 ## Why Twitter API toolkit for Google Cloud?
 
-- Process, analyze and visualize massive amounts of Tweets (up to 10M Tweets and the design is scalable to biliions of Tweets)
+- Process, analyze and visualize massive amounts of Tweets (millions of Tweets and the design is scalable to biliions of Tweets)
 - Automates the data pipeline process to ingest Tweets into Google Cloud
-- Decrease the time to value to find insights from Tweets
-- Visualization of Tweets, slicing and dicing with Tweet attributes
+- Use this toolkit to find impactful Tweets to your use case quickly (~15 minutes)
+- Visualization of Tweets, slicing and dicing with Tweet metadata
 
 
 ## I don’t have a lot of time: 15 mins is all you need
@@ -20,8 +20,8 @@ If you can spare 15 mins, please proceed. You will learn the basics about Twitte
 
 ## What Cloud Services this toolkit will leverage and what are the costs?
 
-- This toolkit requires a Twitter API account that is free to signup for an essential access
-- This toolkit leverages Google BigQuery, App Engine and DataStudio and for processing up to 500K Tweets it will be withing the credit limit. However, we recommend to disable the App Engine when not in use
+- This toolkit requires a Twitter API account that is free to signup for an essential access. Essential access allows 500K Tweets/month
+- This toolkit leverages Google BigQuery, App Engine and DataStudio. You can do a lot with the $300 credit from Google. For processing 500K Tweets/month anticipated billing cost with this toolkit for Google Cloud would be ~$30/month. However, we recommend to disable the App Engine when not in use
 
 ## Give me the big picture
 
