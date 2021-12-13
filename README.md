@@ -77,12 +77,12 @@ Ensure you have the Google Cloud account, Twitter developer account, and Twitter
 ```
 curl -d '{
     "recentSearch" : {
-        "query" : "Apple AirPods",
+        "query" : "Apple AirTag or AirTag",
         "maxResults" : 100,
         "startTime" : "2021-12-06T17:00:00.00Z",
         "endTime" : "2021-12-07T17:00:00.00Z",
-        "category" : "Headsets",
-        "subCategory" : "Wireless gadgets"
+        "category" : "Tracking Devices",
+        "subCategory" : "Wireless Gadgets"
     },
     "dataSet" : {
         "newDataSet" : true,
