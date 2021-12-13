@@ -64,11 +64,13 @@ Ensure you have the Google Cloud account, Twitter developer account, and Twitter
 
 ### Step Two: Load the Tweets with the CURL command
 
-1. Get the URL endpoint of the deployed Tweet loader application
+1. Get the URL endpoint of the deployed Tweet loader application by executing the below command in the Cloud shell
+
+`gcloud app browse`
 
 ![Tweet loader - high level design](https://github.com/twitterdev/gcloud-toolkit-recent-search/blob/main/resources/tweet-loader-design.jpg)
 
-3. Execute the below CURL command with the URL from step #1 and append it with the URL path “/search”
+2. Execute the below CURL command with the URL from step #1 and append it with the URL path “/search”
 
 ```You might need to change the dates to within recent 7 days```
 
