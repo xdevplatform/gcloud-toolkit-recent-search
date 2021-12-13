@@ -2,7 +2,7 @@
 
 ## Why Twitter API toolkit for Google Cloud?
 
-- Process, analyze and visualize massive amounts of Tweets (millions of Tweets and the design is scalable to biliions of Tweets)
+- Process, analyze and visualize massive amounts of Tweets (millions of Tweets and the design is scalable to billions of Tweets)
 - Automates the data pipeline process to ingest Tweets into Google Cloud
 - Use this toolkit to find impactful Tweets to your use case quickly (~15 minutes)
 - Visualization of Tweets, slicing and dicing with Tweet metadata
