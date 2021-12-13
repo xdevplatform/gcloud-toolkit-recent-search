@@ -8,20 +8,20 @@
 - Visualization of Tweets, slicing and dicing with Tweet metadata
 
 
-## I don’t have a lot of time: 15 mins is all you need
+## I don’t have a lot of time: 30 mins is all you need
 
-If you can spare 15 mins, please proceed. You will learn the basics about Twitter API and possibly find ways to monetize Twitter data. As a side benefit, you will also learn about Google Cloud, Analytics, and the foundations of data science
+If you can spare 30 mins, please proceed. You will learn the basics about Twitter API and possibly find ways to monetize Twitter data. As a side benefit, you will also learn about Google Cloud, Analytics, and the foundations of data science
 
 ## Prerequisites: As a developer what do I need to execute this toolkit?
 
 * Twitter Developer account [Sign up here](https://developer.twitter.com/en/apply-for-access)
-* How to get a Twitter API bearer token? [Watch this](https://www.youtube.com/watch?v=E_h1HNjsd-U)
+* How to get a Twitter API bearer token? [Refer this](https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens)
 * A Google Cloud Account [Sign up here](https://www.google.com/aclk?sa=l&ai=DChcSEwjq8LzG8c_0AhUXE9QBHUQBC9QYABADGgJvYQ&sig=AOD64_2epUp76ekL53Vngr8B5cAjNAIaCQ&nis=1&ved=2ahUKEwjAubPG8c_0AhX5mGoFHdnPBMcQqyQoAHoECAMQBw&adurl=)
 
 ## What Cloud Services this toolkit will leverage and what are the costs?
 
 - This toolkit requires a Twitter API account that is free to signup for an essential access. Essential access allows 500K Tweets/month
-- This toolkit leverages Google BigQuery, App Engine and DataStudio. You can do a lot with the $300 credit from Google. For processing 500K Tweets/month anticipated billing cost with this toolkit for Google Cloud would be ~$30/month. However, we recommend to disable the App Engine when not in use
+- This toolkit leverages Google BigQuery, App Engine and DataStudio. You can do a lot with the $300 credit from Google. For processing 500K Tweets/month anticipated billing cost with this toolkit for Google Cloud would be ~$30/month. However, we recommend to disable the App Engine when not in use or delete the Google project. 
 
 ## Give me the big picture
 
@@ -92,3 +92,6 @@ curl -d '{
 ### Step Three: Visualize the Tweets in Google DataStudio
 
 [Follow this video tutorial](https://drive.google.com/file/d/1FLVBzGESgPvcE00uY9CGFRxuw5o4XAgN/view?usp=sharing)
+
+### Step Four: Optional - Delete the projec to avoid any ovverage costs
+`gcloud projects delete`
