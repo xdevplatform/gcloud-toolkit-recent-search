@@ -75,16 +75,16 @@ Ensure you have the Google Cloud account, Twitter developer account, and Twitter
 ```
 curl -d '{
     "recentSearch" : {
-        "query" : "jack in the box",
+        "query" : "Apple AirPods",
         "maxResults" : 100,
         "startTime" : "2021-12-06T17:00:00.00Z",
         "endTime" : "2021-12-07T17:00:00.00Z",
-        "category" : "Quick Service Restaurants",
-        "subCategory" : "Jack in the box"
+        "category" : "Headsets",
+        "subCategory" : "Wireless gadgets"
     },
     "dataSet" : {
         "newDataSet" : true,
-        "dataSetName" : "test10"    
+        "dataSetName" : "Gadgets"    
     }
 }' -H 'Content-Type: application/json' https://<<Tweet loader URL>>.appspot.com/search
 ```
@@ -93,5 +93,5 @@ curl -d '{
 
 [Follow this video tutorial](https://drive.google.com/file/d/1FLVBzGESgPvcE00uY9CGFRxuw5o4XAgN/view?usp=sharing)
 
-### Step Four: Optional - Delete the projec to avoid any ovverage costs
+### Step Four: Optional - Delete the project to avoid any overage costs
 `gcloud projects delete`
