@@ -1,4 +1,4 @@
-# Developer Guide: Twitter API toolkit for Google Cloud
+# Developer Guide: Twitter API toolkit for Google Cloud (BETA)
 
 ## Why Twitter API toolkit for Google Cloud?
 
