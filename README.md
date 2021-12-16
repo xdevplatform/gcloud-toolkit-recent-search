@@ -96,4 +96,4 @@ curl -d '{
 [Follow this video tutorial](https://drive.google.com/file/d/1FLVBzGESgPvcE00uY9CGFRxuw5o4XAgN/view?usp=sharing)
 
 ### Step Four: Optional - Delete the project to avoid any overage costs
-`gcloud projects delete`
+`gcloud projects delete <<PROJECT_ID>>`
