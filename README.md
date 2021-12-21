@@ -27,7 +27,7 @@ If you can spare 30 mins, please proceed. You will learn the basics about Twitte
 
 ![A Developer's interaction with the toolkit](https://github.com/twitterdev/gcloud-toolkit-recent-search/blob/main/resources/architecture.jpg)
 
-## How should I execute this toolkit? [Video tutorial](https://drive.google.com/file/d/1rLpN_vLXe9csrRSKjIV_LtcKcNuYfPtG/view?usp=sharing)
+## How should I execute this toolkit? 
 
 Ensure you have the Google Cloud account, Twitter developer account, and Twitter API bearer token
 
@@ -35,7 +35,7 @@ Ensure you have the Google Cloud account, Twitter developer account, and Twitter
 1. [Manually load the Tweets](http://google.com)
 2. [Visulaize the Tweets with DataStudio](https://drive.google.com/file/d/1FLVBzGESgPvcE00uY9CGFRxuw5o4XAgN/view?usp=sharing)
 
-### Step One: Install the Tweet loader application
+### Step One: Install the Tweet loader application [Video tutorial](https://drive.google.com/file/d/1rLpN_vLXe9csrRSKjIV_LtcKcNuYfPtG/view?usp=sharing)
 
 1. Access Google Cloud console and launch the “Cloud Shell”. Ensure you are on the right Google Cloud Project
 2. At the command prompt, download the code for the toolkit by executing the command: 
