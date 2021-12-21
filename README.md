@@ -32,7 +32,7 @@ If you can spare 30 mins, please proceed. You will learn the basics about Twitte
 Ensure you have the Google Cloud account, Twitter developer account, and Twitter API bearer token
 
 ### Optional Step: If you prefer to manually load the Tweets with a JSON file and visualize the Tweets, follow the video tutorials
-1. [Manually load the Tweets](http://google.com)
+1. [Manually load the Tweets](https://drive.google.com/file/d/1kBMOYSXkW48PPdsQ8yAqndHlBoircvMP/view?usp=sharing)
 2. [Visulaize the Tweets with DataStudio](https://drive.google.com/file/d/1FLVBzGESgPvcE00uY9CGFRxuw5o4XAgN/view?usp=sharing)
 
 ### Step One: Install the Tweet loader application [Video tutorial](https://drive.google.com/file/d/1rLpN_vLXe9csrRSKjIV_LtcKcNuYfPtG/view?usp=sharing)
