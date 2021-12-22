@@ -23,6 +23,11 @@ If you can spare 30 mins, please proceed. You will learn the basics about Twitte
 - This toolkit requires a Twitter API account that is free to signup for an essential access. Essential access allows 500K Tweets/month
 - This toolkit leverages Google BigQuery, App Engine and DataStudio. You can do a lot with the $300 credit from Google. For processing 500K Tweets/month anticipated billing cost with this toolkit for Google Cloud would be ~$30/month. However, we recommend to disable the App Engine when not in use or delete the Google project. 
 
+
+## Show me an exmaple of a report / dashboard that could be built with this toolkit
+
+![Popular Hashtags Dashboards for FPS Games 2021](https://github.com/twitterdev/gcloud-toolkit-recent-search/blob/main/resources/FPS.png)
+
 ## Give me the big picture
 
 ![A Developer's interaction with the toolkit](https://github.com/twitterdev/gcloud-toolkit-recent-search/blob/main/resources/architecture.jpg)
@@ -30,6 +35,7 @@ If you can spare 30 mins, please proceed. You will learn the basics about Twitte
 ## How should I execute this toolkit? 
 
 Ensure you have the Google Cloud account, Twitter developer account, and Twitter API bearer token
+
 
 ### Optional Step: If you prefer to manually load the Tweets with a JSON file and visualize the Tweets, follow the video tutorials
 1. [Manually load the Tweets](https://drive.google.com/file/d/1kBMOYSXkW48PPdsQ8yAqndHlBoircvMP/view?usp=sharing)
