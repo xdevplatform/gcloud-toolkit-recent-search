@@ -24,7 +24,7 @@ If you can spare 30 mins, please proceed. You will learn the basics about Twitte
 - This toolkit leverages Google BigQuery, App Engine and DataStudio. You can do a lot with the $300 credit from Google. For processing 500K Tweets/month anticipated billing cost with this toolkit for Google Cloud would be ~$30/month. However, we recommend to disable the App Engine when not in use or delete the Google project. 
 
 
-## Show me an exmaple of a report / dashboard that could be built with this toolkit
+## Show me an example of a report / dashboard that could be built with this toolkit
 
 ![Popular Hashtags Dashboards for FPS Games 2021](https://github.com/twitterdev/gcloud-toolkit-recent-search/blob/main/resources/FPS.png)
 
@@ -93,8 +93,8 @@ curl -d '{
     "recentSearch" : {
         "query" : "Apple AirTag or AirTag",
         "maxResults" : 100,
-        "startTime" : "2021-12-06T17:00:00.00Z",
-        "endTime" : "2021-12-07T17:00:00.00Z",
+        "startTime" : "2022-01-08T17:00:00.00Z",
+        "endTime" : "2022-01-09T17:00:00.00Z",
         "category" : "Tracking Devices",
         "subCategory" : "Wireless Gadgets"
     },
