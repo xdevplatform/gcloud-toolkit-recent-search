@@ -343,6 +343,11 @@
                         "mode": "NULLABLE"
                     },
                     {
+                        "name": "media_key",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
                         "name": "images",
                         "type": "RECORD",
                         "mode": "REPEATED",
